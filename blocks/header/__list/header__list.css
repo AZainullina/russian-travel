@@ -1,0 +1,10 @@
+.header__list {
+display: inline-block;
+margin-right: 18px;
+}
+
+@media screen and (max-width: 320px) {
+.header__list {
+margin-right: 16px;
+}
+}

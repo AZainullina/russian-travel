@@ -1,0 +1,56 @@
+.place__image {
+max-width: 460px;
+object-fit: cover;
+padding-left: 48px;
+padding-right: 48px;
+}
+
+.place__image {
+opacity: 1;
+transition: opacity .3s ease-out;
+}
+            
+.place__image:hover {
+opacity: 0.8;
+transition: opacity .3s ease-out;
+}
+
+ @media screen and (max-width: 1024px) {
+.place__image {
+max-width: 440px;
+}
+}
+                
+@media screen and (max-width: 768px) {
+.place__image {
+max-width: 340px;
+}
+}
+          
+@media screen and (max-width: 320px) {
+.place__image {
+max-width: 320px;
+margin-bottom: 32px;
+}
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+  padding-left: 0;
+  padding-right: 0;      
+  }
+  }
+
+  @media screen and (max-width: 414px) {
+    .place__image {
+    padding-left: 0;
+    padding-right: 0;      
+    }
+    }
+  
+  @media screen and (max-width: 768px) {
+    .place__image {
+  padding-left: 24px;
+  padding-right: 24px;         
+  }
+  }
