@@ -5,22 +5,22 @@ padding-right: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__website {
-   padding-left: 48px;
-   padding-right: 0;
-  } 
- }
+.place__website {
+padding-left: 48px;
+padding-right: 0;
+} 
+}
  
- @media screen and (max-width: 768px) {
-   .place__website{
-    padding-left: 24px;
-    padding-right: 0;
-   } 
-  }
+@media screen and (max-width: 768px) {
+.place__website{
+padding-left: 24px;
+padding-right: 0;
+} 
+}
  
-  @media screen and (max-width: 320px) {
-   .place__website {
-    padding-left: 16px;
-    padding-right: 16px;
-   } 
-  }
+@media screen and (max-width: 320px) {
+.place__website {
+padding-left: 16px;
+padding-right: 16px;
+} 
+}
