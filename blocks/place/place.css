@@ -19,16 +19,9 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 620px) {
     .place {
         display: block;
-        margin-bottom: 48px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .place {
-        display: block;
-        margin-bottom: 48px;
+        margin: 0 16px 48px;
     }
 }

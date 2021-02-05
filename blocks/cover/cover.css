@@ -5,26 +5,21 @@
     padding-left: 48px;
 }
 
+@media screen and (max-width: 1024px) {
+    .cover {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cover {
         margin-bottom: 88px;
-        padding-left: 24px;
-        padding-right: 24px;
     }
 }
 
 @media screen and (max-width: 414px) {
     .cover {
         margin-bottom: 64px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .cover {
-        margin-bottom: 64px;
-        padding-left: 0;
-        padding-right: 0;
     }
 }

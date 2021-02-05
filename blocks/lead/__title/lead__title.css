@@ -8,22 +8,26 @@
 
 @media screen and (max-width: 768px) {
     .lead__title {
-        font-size: 54px;
-        line-height: 107%;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 62px;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 500px) {
+    .lead__title {
+        font-size: 48px;
+        line-height: 1.1;
     }
 }
 
 @media screen and (max-width: 414px) {
     .lead__title {
-        font-size: 32px;
-        line-height: 109%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__title {
         margin-bottom: 16px;
-        font-size: 32px;
-        line-height: 109%;
+        font-size: 40px;
+        line-height: 110%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
