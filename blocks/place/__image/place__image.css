@@ -1,8 +1,6 @@
 .place__image {
     max-width: 460px;
     object-fit: cover;
-    opacity: 1;
-    transition: opacity .3s ease-out;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,14 +12,12 @@
 @media screen and (max-width: 768px) {
     .place__image {
         max-width: 340px;
-        padding-left: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
     .place__image {
-        max-width: 320px;
+        max-width: 100%;
         margin-bottom: 32px;
-        padding-left: 0;
     }
 }
