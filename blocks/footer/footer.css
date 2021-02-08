@@ -3,10 +3,29 @@
     justify-content: space-between;
     align-items: end;
     margin: 0 auto 24px;
+    max-width: 1184px;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        max-width: 720px;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .footer {
         flex-direction: column;
+        max-width: 186px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin: 0;
     }
 }
